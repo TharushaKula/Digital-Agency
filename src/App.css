@@ -23,7 +23,7 @@
     }
   }
 
-  .box {
+.box {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
@@ -55,7 +55,44 @@
         max-width: 1736px;
     }
 }
+  
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    border-radius: 0.75rem;
+}
+  
 
+.email-input-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
   
+  .email-input {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    outline: none;
+  }
   
+  .submit-button {
+    padding: 15px 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+
   
