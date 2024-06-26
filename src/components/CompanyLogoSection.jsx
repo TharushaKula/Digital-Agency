@@ -1,0 +1,51 @@
+import amazon from "../assets/amazon.png";
+import fedEx from "../assets/fedEx.png";
+import google from "../assets/google.png";
+import netflix from "../assets/netflix.png";
+import walmart from "../assets/walmart.jpg";
+import spotify from "../assets/spotify.png";
+
+export default function CompanyLogoSection() {
+  return (
+    <>
+      <section className="box pt-24">
+        <div className="flex items-center gap-5">
+          <div className="h-1 w-40 bg-slate-400 rounded-full"></div>
+          <div className="p-0 m-0 text-slate-400 pl-5">
+            {" "}
+            OVER 5K TOP CLASS BRAND WORKING WITH SPARK
+          </div>
+          <div className="h-1 w-screen bg-slate-400 rounded-full "></div>
+        </div>
+      </section>
+      <LogoSection/>
+    </>
+  );
+}
+
+export function LogoSection() {
+  return (
+    <section className="box pt-10">
+      <div className="grid grid-cols-6 gap-36">
+        <div>
+          <img src={amazon} alt="" />
+        </div>
+        <div>
+          <img src={fedEx} alt="" />
+        </div>
+        <div>
+          <img src={google} alt="" />
+        </div>
+        <div>
+          <img src={netflix} alt="" />
+        </div>
+        <div>
+          <img src={walmart} alt="" />
+        </div>
+        <div>
+          <img src={spotify} alt="" />
+        </div>
+      </div>
+    </section>
+  );
+}
