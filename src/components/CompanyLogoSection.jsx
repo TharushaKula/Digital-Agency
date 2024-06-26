@@ -26,7 +26,7 @@ export default function CompanyLogoSection() {
 export function LogoSection() {
   return (
     <section className="box pt-10">
-      <div className="grid grid-cols-6 gap-36">
+      <div className="grid lg:grid-cols-6 sm:grid-cols-2 gap-36">
         <div>
           <img src={amazon} alt="" />
         </div>
