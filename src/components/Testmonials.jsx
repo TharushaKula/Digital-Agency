@@ -5,13 +5,13 @@ import heroImage2 from "../assets/heroImg2.png";
 export default function Testmonials() {
   return (
     <>
-      <section className="mt-36 relative">
+      <section className="mt-36 lg:relative">
         <div className="box relative">
-          <div className="grid grid-cols-2">
+          <div className="grid lg:grid-cols-2 sm:grid-cols-1">
             <div>
               <img src={heroImage2} alt="" className="rounded-lg" />
             </div>
-            <div className="flex flex-col pl-14 ">
+            <div className="flex flex-col lg:pl-14 mt-10">
               <p className="flex items-center gap-4 text-lg font-medium text-blue-900 pb-7">
                 <div className="h-1 w-40 bg-blue-900 rounded-full"></div>{" "}
                 Testmonials
@@ -30,10 +30,27 @@ export default function Testmonials() {
           </div>
         </div>
 
-        <div className="box pt-20 absolute top-60 left-56">
+        <div className="box pt-20 lg:absolute top-60 left-56">
           <Swiper
             spaceBetween={50}
-            slidesPerView={3.7}
+            // slidesPerView={3.7}
+            breakpoints={{
+              // when window width is >= 320px
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              // when window width is >= 640px
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              // when window width is >= 1024px
+              1024: {
+                slidesPerView: 3.7,
+                spaceBetween: 30,
+              },
+            }}
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
           >

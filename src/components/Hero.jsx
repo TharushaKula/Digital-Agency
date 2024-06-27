@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="box pt-10">
       <div className="grid lg:grid-cols-2 sm:grid-cols-1">
         <div className="">
-          <p className="text-8xl font-bold pb-10 pt-32">
+          <p className="text-6xl font-bold pb-10 lg:pt-32">
             Infinite <br /> Possibilities, <br /> One Agency
           </p>
           <p className="text-xl font-medium pb-10">

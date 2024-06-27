@@ -1,9 +1,9 @@
 export default function ServicesSection() {
   return (
     <section className="box pt-36">
-      <div className="grid grid-cols-2">
-        <div className="pr-36">
-          <div className="grid grid-cols-2 gap-5">
+      <div className="grid lg:grid-cols-2 sm:grid-cols-1">
+        <div className="lg:pr-36">
+          <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-5">
             <ServiceCard
               svg={
                 <svg
@@ -114,7 +114,7 @@ export default function ServicesSection() {
             />
           </div>
         </div>
-        <div className="flex flex-col pr-14 justify-center">
+        <div className="flex flex-col pr-14 justify-center mt-10">
           <p className="flex items-center gap-4 text-lg font-medium text-blue-900 pb-7">
             <div className="h-1 w-40 bg-blue-900 rounded-full"></div>Services
           </p>

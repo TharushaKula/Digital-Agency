@@ -26,24 +26,24 @@ export default function CompanyLogoSection() {
 export function LogoSection() {
   return (
     <section className="box pt-10">
-      <div className="grid lg:grid-cols-6 sm:grid-cols-2 gap-36">
-        <div>
-          <img src={amazon} alt="" />
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+        <div className="flex justify-center items-center">
+          <img className="w-full h-auto max-w-[100px]" src={amazon} alt="" />
         </div>
-        <div>
-          <img src={fedEx} alt="" />
+        <div className="flex justify-center items-center">
+          <img className="w-full h-auto max-w-[100px]" src={fedEx} alt="" />
         </div>
-        <div>
-          <img src={google} alt="" />
+        <div className="flex justify-center items-center">
+          <img className="w-full h-auto max-w-[100px]" src={google} alt="" />
         </div>
-        <div>
-          <img src={netflix} alt="" />
+        <div className="flex justify-center items-center">
+          <img className="w-full h-auto max-w-[100px]" src={netflix} alt="" />
         </div>
-        <div>
-          <img src={walmart} alt="" />
+        <div className="flex justify-center items-center">
+          <img className="w-full h-auto max-w-[100px]" src={walmart} alt="" />
         </div>
-        <div>
-          <img src={spotify} alt="" />
+        <div className="flex justify-center items-center">
+          <img className="w-full h-auto max-w-[100px]" src={spotify} alt="" />
         </div>
       </div>
     </section>

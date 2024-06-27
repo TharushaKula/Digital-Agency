@@ -4,7 +4,7 @@ export default function AboutCompanySection() {
   return (
     <section className="box pt-36">
       <div className="grid lg:grid-cols-2 sm:grid-cols-1 ">
-        <div className="flex flex-col pr-14 justify-center">
+        <div className="flex flex-col lg:pr-14 justify-center">
           <p className="flex items-center gap-4 text-lg font-medium text-blue-900 pb-7">
             <div className="h-1 w-40 bg-blue-900 rounded-full"></div> About
             Company
@@ -30,7 +30,7 @@ export default function AboutCompanySection() {
             </button>
           </div>
         </div>
-        <div>
+        <div className="mt-5">
           <img src={heroImage2} alt="" className="rounded-lg" />
         </div>
       </div>
