@@ -10,6 +10,8 @@ import AboutCompanySection from "./components/AboutCompanySection";
 import ServicesSection from "./components/ServicesSection";
 import Testmonials from "./components/Testmonials";
 import NavBar from "./components/NavBar";
+import VideoPlayer from "./components/VideoPlayer";
+import Footer from "./components/Footer";
 
 function App() {
   
@@ -44,9 +46,10 @@ function App() {
         </div>
       </section>
 
+      
       <Testmonials />
 
-      <section className="box pt-40">
+      <section className="box pt-40 pb-40">
         <div className="grid lg:grid-cols-2 sm:grid-cols-1">
           <div className="flex flex-col lg:pl-14 justify-center ">
             <p className="flex items-center gap-4 text-lg font-medium text-blue-900 pb-7">
@@ -73,6 +76,8 @@ function App() {
           </div>
         </div>
       </section>
+
+      <Footer/>
     </div>
   );
 }
