@@ -50,25 +50,25 @@ function App() {
 
       <Testmonials />
 
-      <section className="box pt-40 pb-40">
-        <div className="grid lg:grid-cols-2 sm:grid-cols-1">
+      <section className="box pt-40 pb-40 ">
+        <div className="grid lg:grid-cols-2 sm:grid-cols-1 bg-black rounded-xl pt-10 pb-10 lg:pr-10">
           <div className="flex flex-col lg:pl-14 justify-center ">
             <p className="flex items-center gap-4 text-lg font-medium text-blue-900 pb-7">
               <div className="h-1 w-40 bg-blue-900 rounded-full"></div> About
               Company
             </p>
-            <p className="text-5xl font-bold pb-10">
+            <p className="text-5xl font-bold pb-10 text-white">
               2500+ Happy Clients Said To Us They Are Satisfied
             </p>
             <div className="flex items-center w-full max-w-md border border-black rounded-xl mb-7">
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="email-input rounded-full"
+                className="email-input rounded-lg"
               />
               <button className="submit-button rounded-xl">Submit</button>
             </div>
-            <p>
+            <p className="text-white font-semibold">
               Already a member? <a href="#">Sign in.</a>
             </p>
           </div>
