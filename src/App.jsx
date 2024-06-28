@@ -46,7 +46,8 @@ function App() {
         </div>
       </section>
 
-      
+      <VideoPlayer/>
+
       <Testmonials />
 
       <section className="box pt-40 pb-40">

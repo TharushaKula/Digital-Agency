@@ -1,22 +1,12 @@
-import { useEffect, useRef } from "react";
+import Video from "../assets/video.mp4"
 
-
-export default function VideoPlayer(){
-    const cloudinaryRef = useRef();
-    const videoRef = useRef();
-    useEffect(() => {
-        if (cloudinaryRef.current) return;
-        window.cloudinary = window.cloudinary;
-        cloudinaryRef.current.VideoPlayer(videoRef.current, {
-            cloud_name: 'colbycloud-examples'
-        })
-    }, []);
-
-    return(
-        <video
-        ref={videoRef}
-        data-cld-public-id="videos/waterfall"
-        />
-    );
-
+export default function VideoPlayer() {
+  return (
+    <div className="box flex justify-center pt-10">
+      <video width="1400" controls autoplay loop muted>
+        <source src={Video} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  );
 }
