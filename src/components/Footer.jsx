@@ -95,7 +95,7 @@ export default function Footer() {
         </div>
         <div className="text-center mt-8">
           <p className="text-gray-400">
-            © 2024 Your Company. All rights reserved.
+            © 2024 Spark. All rights reserved.
           </p>
         </div>
       </div>

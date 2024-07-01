@@ -31,7 +31,7 @@ export default function AboutCompanySection() {
           </div>
         </div>
         <div className="mt-5">
-          <img src={heroImage2} alt="" className="rounded-lg" />
+          <img src={heroImage2} alt="" className="rounded-lg w-full h-auto max-w-[800px]" />
         </div>
       </div>
     </section>

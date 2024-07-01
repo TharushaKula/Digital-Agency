@@ -12,7 +12,7 @@ export default function NavBar() {
     <nav className="box pt-5 font-medium text-xl">
       <ul className="flex items-center justify-between">
         <li className="mr-auto">
-          <img className="h-16" src={logo} alt="" />
+          <img className="w-full h-auto max-w-[100px]" src={logo} alt="" />
         </li>
         <div className="lg:flex hidden gap-11 mx-auto">
           <li>About Us</li>
