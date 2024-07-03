@@ -30,7 +30,7 @@ export default function Testmonials() {
           </div>
         </div>
 
-        <div className="box pt-20 lg:absolute top-60 left-56">
+        <div className="box pt-20 lg:absolute top-60 left-80">
           <Swiper
             spaceBetween={50}
             // slidesPerView={3.7}

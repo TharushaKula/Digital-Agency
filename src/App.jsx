@@ -51,7 +51,7 @@ function App() {
       <Testmonials />
 
       <section className="box pt-40 pb-40 ">
-        <div className="grid lg:grid-cols-2 sm:grid-cols-1 bg-black rounded-xl pt-10 pb-10 lg:pr-10">
+        <div className="grid lg:grid-cols-2 sm:grid-cols-1 bg-black rounded-xl pt-10 pb-5 p-3 lg:pb-10 lg:pr-10">
           <div className="flex flex-col lg:pl-14 justify-center ">
             <p className="flex items-center gap-4 text-lg font-medium text-blue-900 pb-7">
               <div className="h-1 w-40 bg-blue-900 rounded-full"></div> About
@@ -68,7 +68,7 @@ function App() {
               />
               <button className="submit-button rounded-xl">Submit</button>
             </div>
-            <p className="text-white font-semibold">
+            <p className="text-white font-semibold pb-5">
               Already a member? <a href="#">Sign in.</a>
             </p>
           </div>
